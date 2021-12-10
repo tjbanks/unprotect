@@ -1,0 +1,11 @@
+# Compile an EXE
+
+Install IronPython (https://ironpython.net/)
+
+Run
+
+```
+"C:\Program Files\IronPython 3.4\ipyc.exe" /out:unprotect /main:unprotect.py /target:exe
+```
+
+To distribute, copy the .dll files in "C:\Program Files\IronPython 3.4\" and the "Lib" folder.
